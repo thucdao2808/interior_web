@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.row-banner{
+   display: flex;
+   justify-content: space-around;
+}
+
+.footer-one{
+    width: 30%;
+}
+.footer-item__heading{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white;
+}
+.footer-two{
+    width:30%;
+   
+    
+ 
+}
+.footer-item-heading{
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.youtube-content-banner{
+   
+    color:white;
+
+}
+
+.avatar-chanel{
+    width:50px;
+    height: 50px;
+    
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+.youtube-avatar{
+    width: 60%;
+    padding-left: 20px;
+    display: flex;
+
+}
+.youtube-channel-infor{
+   display: flex;
+    background-color: rgb(106, 106, 104);
+}
+.youtube-content-banner{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    
+
+   
+}
+
+
+.youtube-channel__people{
+    color: #9c9898;
+   
+}
+.person-follow{
+    color: rgb(255, 238, 238);
+    font-size: 15px;
+    padding: 2px 2px;
+}
+
+.youtube-channel__subscribe{
+    display: flex;
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    
+}
+.banner{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+.register:hover{
+   opacity: 0.8;
+   transition: all 0,5s;
+}
+.title-move-link{
+    text-decoration: none;
+    color:aliceblue;
+}
+.title-move-link:hover{
+    color:rgb(229, 229, 99);
+}
+.youtube-channel__title-channel,.youtube-channel__date{
+  color: aliceblue;
+}
+
+/* footer3 */
+
+.footer-three{
+    width: 30%;
+
+}
+.sbi_photo_wrap img{
+   object-fit: cover;
+}
+.choose-image{
+    width: 100px;
+    height: 100px;
+}
+.sbi-item{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+.sbi-item img:hover{
+    opacity: 0.8;
+  
+    border: 3px solid white;
+    cursor: pointer;
+}
+.title-instagram{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: aliceblue;
+}
